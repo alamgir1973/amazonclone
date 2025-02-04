@@ -88,29 +88,6 @@ This feature develop on a branch `menu-bar`
 - Add style to `container`
 - Add style to `flex`
 
-### Main content
-
-This feature develop on a branch `main-content`
-
-#### HTML
-
-- Add `section` tag
-- Add `div` tag to `section` tag
-- Add `div` tag to `div` tag
-- Add `h1` tag to `div` tag
-- Add `p` tag to `div` tag
-- Add `a` tag to `div` tag
-- Add `div` tag
--
-
-#### CSS
-
-- Add style to `showcase`
-- Add style to `h1`
-- Add style to `p`
-- Add style to `container`
-- Add style to `flex`
-
 ### Slider
 
 This feature develop on a branch `slider`

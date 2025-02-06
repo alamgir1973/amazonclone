@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
 
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Amazon.com.be Clone
+  </title>
+  <link href="./styles/index.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="top-nav">
+        <div class="nav-logo border">
+          <div class="logo">
+            <a href=""><img src="./public/imgs/amazon_logo.png" alt="Logo" /></a>
+          </div>
+        </div>
+
+        <div class="nav-location border">
+          <p class="location-first">Delivering to</p>
+          <div class="location-icon">
+            <ion-icon name="location-outline" class="icon"></ion-icon>
+            <p class="location-second">Update location</p>
+          </div>
+        </div>
+        <div class="nav-search">
+          <select class="category">
+            <option value="">All</option>
+            <option value="">Arts &amp; Crafts</option>
+            <option value="">Alexa</option>
+            <option value="">Baby</option>
+          </select>
+          <input type="text" placeholder="Search Amazon.com.be" class="search-input" />
+          <div class="search-icon">
+            <ion-icon name="search-outline" class="icon-search"></ion-icon>
+          </div>
+        </div>
+        <div class="nav-language border">
+          <div class="lang-select">
+            <img src="./public/imgs/belgium-flag.png" alt="Belgium Flag" />
+            <select class="lang-select">
+              <option value="">EN</option>
+              <option value="">FR</option>
+              <option value="">NL</option>
+            </select>
+          </div>
+        </div>
+        <div class="nav-signin border">
+          <p class="first-signin">Hello, sign in</p>
+          <p class="second-signin">Account &amp; Lists</p>
+        </div>
+        <div class="nav-signin border">
+          <p class="first-signin">Return</p>
+          <p class="second-signin">&amp; Orders</p>
+        </div>
+        <div class="nav-cart border">
+          <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+          <p>Basket</p>
+        </div>
+      </div>
+      <div class="bottom-nav">
+        <div class="bnav-left">
+          <div class="all border">
+            <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+            <p>All</p>
+          </div>
+          <div class="options">
+            <a class="border">Keep Shopping For</a>
+            <a class="border">Best Sellers</a>
+            <a class="border">Prime</a>
+            <a class="border">Prime Video</a>
+            <a class="border">Today's Deals</a>
+            <a class="border">Gift Ideas</a>
+          </div>
+        </div>
+        <div class="bnav-right border">
+          <p>Cupid's corner</p>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main></main>
+
+  <footer></footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>

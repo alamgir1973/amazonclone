@@ -68,12 +68,12 @@ This feature develop on a branch `navigation-bar`
 
 ### Main content
 
-This feature develop on a branch `menu-bar`
+This feature develop on a branch `main-content`
 
 #### HTML
 
-- Add `section` tag
-- Add `div` tag to `section` tag
+- Add `main` tag
+- Add `section` tag to `main` tag
 - Add `div` tag to `div` tag
 - Add `h1` tag to `div` tag
 - Add `p` tag to `div` tag
@@ -82,25 +82,11 @@ This feature develop on a branch `menu-bar`
 
 #### CSS
 
-- Add style to `menu-bar`
+- Add style to `main-content`
 - Add style to `h1`
 - Add style to `p`
 - Add style to `container`
 - Add style to `flex`
-
-### Slider
-
-This feature develop on a branch `slider`
-
-#### HTML
-
-- Add `section` tag
-- Add `div` tag into `section`
-- Add some `images` into `div`
-
-#### CSS
-
-- Add style to `slider`
 
 ### Products
 

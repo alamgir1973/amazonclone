@@ -292,3 +292,144 @@ body {
 .under20-products::-webkit-scrollbar-thumb:hover {
   background: #d4d3d3;
 }
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  background-color: #232f3e;
+  height: 350px;
+  padding: 50px 150px;
+}
+
+.get-know {
+  color: #fff;
+  padding: 25px;
+}
+
+.get-know ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.amazon-pay ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.make-money ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.lets-help ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.footer-bottom ul li a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.get-know ul li a:hover {
+  text-decoration: underline;
+}
+
+.get-know ul li {
+  list-style: none;
+}
+
+.get-know h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.make-money {
+  color: #fff;
+  padding: 25px;
+}
+
+.make-money ul li a:hover {
+  text-decoration: underline;
+}
+
+.make-money ul li {
+  list-style: none;
+}
+
+.make-money h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.amazon-pay {
+  color: #fff;
+  padding: 25px;
+}
+
+.amazon-pay ul li a:hover {
+  text-decoration: underline;
+}
+
+.amazon-pay ul li {
+  list-style: none;
+}
+
+.amazon-pay h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.lets-help {
+  color: #fff;
+  padding: 25px;
+}
+
+.lets-help ul li a:hover {
+  text-decoration: underline;
+}
+
+.lets-help ul li {
+  list-style: none;
+}
+
+.lets-help h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.footer-bottom ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+  background-color: #131a22;
+}
+
+.footer-bottom ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom ul li {
+  list-style: none;
+}
+
+.footer-end {
+  background-color: #131a22;
+  width: 100%;
+  color: #ddd;
+  text-align: center;
+  font-size: 12px;
+  margin-top: -25px;
+}

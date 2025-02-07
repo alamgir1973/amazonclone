@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* -------Top Nav------- */
+
+.top-nav {
+  height: 60px;
+  background-color: #131921;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+}
+
+/* -------Top Nav Left------- */
+
+.topnav-left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.amazon-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amazon-logo img {
+  width: 100%;
+}
+
+.lang-select img {
+  width: 22px;
+}
+
+.amazon-logo a img {
+  width: 110px;
+  padding-top: 5px;
+}
+
+.nav-logotext {
+  font-size: 14px;
+  margin-left: -8px;
+  margin-bottom: 5px;
+}
+
+.nav-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav-center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.topnav-right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

@@ -1,97 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon.com.be Clone</title>
+    <link href="./styles/index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>
-    Amazon.com.be Clone
-  </title>
-  <link href="./styles/index.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <body>
+    <header>
+      <nav>
+        <div class="top-nav">
+          <div class="nav-logo border">
+            <div class="logo">
+              <a href=""
+                ><img src="./public/imgs/amazon_logo.png" alt="Logo"
+              /></a>
+            </div>
+          </div>
 
-<body>
-  <header>
-    <nav>
-      <div class="top-nav">
-        <div class="nav-logo border">
-          <div class="logo">
-            <a href=""><img src="./public/imgs/amazon_logo.png" alt="Logo" /></a>
+          <div class="nav-location border">
+            <p class="location-first">Delivering to</p>
+            <div class="location-icon">
+              <ion-icon name="location-outline" class="icon"></ion-icon>
+              <p class="location-second">Update location</p>
+            </div>
           </div>
-        </div>
-
-        <div class="nav-location border">
-          <p class="location-first">Delivering to</p>
-          <div class="location-icon">
-            <ion-icon name="location-outline" class="icon"></ion-icon>
-            <p class="location-second">Update location</p>
-          </div>
-        </div>
-        <div class="nav-search">
-          <select class="category">
-            <option value="">All</option>
-            <option value="">Arts &amp; Crafts</option>
-            <option value="">Alexa</option>
-            <option value="">Baby</option>
-          </select>
-          <input type="text" placeholder="Search Amazon.com.be" class="search-input" />
-          <div class="search-icon">
-            <ion-icon name="search-outline" class="icon-search"></ion-icon>
-          </div>
-        </div>
-        <div class="nav-language border">
-          <div class="lang-select">
-            <img src="./public/imgs/belgium-flag.png" alt="Belgium Flag" />
-            <select class="lang-select">
-              <option value="">EN</option>
-              <option value="">FR</option>
-              <option value="">NL</option>
+          <div class="nav-search">
+            <select class="category">
+              <option value="">All</option>
+              <option value="">Arts &amp; Crafts</option>
+              <option value="">Alexa</option>
+              <option value="">Baby</option>
             </select>
+            <input
+              type="text"
+              placeholder="Search Amazon.com.be"
+              class="search-input"
+            />
+            <div class="search-icon">
+              <ion-icon name="search-outline" class="icon-search"></ion-icon>
+            </div>
+          </div>
+          <div class="nav-language border">
+            <div class="lang-select">
+              <img src="./public/imgs/belgium-flag.png" alt="Belgium Flag" />
+              <select class="lang-select">
+                <option value="">EN</option>
+                <option value="">FR</option>
+                <option value="">NL</option>
+              </select>
+            </div>
+          </div>
+          <div class="nav-signin border">
+            <p class="first-signin">Hello, sign in</p>
+            <p class="second-signin">Account &amp; Lists</p>
+          </div>
+          <div class="nav-signin border">
+            <p class="first-signin">Return</p>
+            <p class="second-signin">&amp; Orders</p>
+          </div>
+          <div class="nav-cart border">
+            <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+            <p>Basket</p>
           </div>
         </div>
-        <div class="nav-signin border">
-          <p class="first-signin">Hello, sign in</p>
-          <p class="second-signin">Account &amp; Lists</p>
+        <div class="bottom-nav">
+          <div class="bnav-left">
+            <div class="all border">
+              <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+              <p>All</p>
+            </div>
+            <div class="options">
+              <a class="border">Keep Shopping For</a>
+              <a class="border">Best Sellers</a>
+              <a class="border">Prime</a>
+              <a class="border">Prime Video</a>
+              <a class="border">Today's Deals</a>
+              <a class="border">Gift Ideas</a>
+            </div>
+          </div>
+          <div class="bnav-right border">
+            <p>Cupid's corner</p>
+          </div>
         </div>
-        <div class="nav-signin border">
-          <p class="first-signin">Return</p>
-          <p class="second-signin">&amp; Orders</p>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main-content">
+        <div class="main-none">Main content none.</div>
+      </div>
+      <div class="main-products">
+        <div class="products-box">
+          <h3>Light up your space</h3>
+          <img src="./public/imgs/image01.jpg" alt="Light up your space" />
+          <a href="">See more</a>
         </div>
-        <div class="nav-cart border">
-          <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
-          <p>Basket</p>
+
+        <div class="products-box">
+          <h3>The Valentine’s Day Shop</h3>
+          <img src="./public/imgs/product02.jpg" alt="Valentines's Day Shop" />
+          <a href="">See more</a>
+        </div>
+
+        <div class="products-box">
+          <h3>Amazon Devices</h3>
+          <img src="./public/imgs/product03.jpg" alt="Amazon Devices" />
+          <a href="">See more</a>
+        </div>
+
+        <div class="products-box">
+          <h3>Best Sellers in Electronics</h3>
+          <img
+            src="./public/imgs/product04.jpg"
+            alt="Best Sellers in Electronics"
+          />
+          <a href="">See more</a>
+        </div>
+
+        <div class="products-box">
+          <h3>Gear up for greatness: sport finds under €20</h3>
+          <img
+            src="./public/imgs/image04.jpg"
+            alt="Gear up for greatness: sport finds under €20"
+          />
+          <a href="">See more</a>
+        </div>
+
+        <div class="products-box">
+          <h3>Explore, create, discover new passions</h3>
+          <img
+            src="./public/imgs/image06.jpg"
+            alt="Explore, create, discover"
+          />
+          <a href="">See more</a>
+        </div>
+
+        <div class="products-box">
+          <h3>Detox</h3>
+          <img src="./public/imgs/image07.jpg" alt="Detox" />
+          <a href="">See more</a>
+        </div>
+
+        <div class="products-box">
+          <h3>Amazon Essentials</h3>
+          <img src="./public/imgs/image08.jpg" alt="Amazon Essentials" />
+          <a href="">See more</a>
         </div>
       </div>
-      <div class="bottom-nav">
-        <div class="bnav-left">
-          <div class="all border">
-            <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
-            <p>All</p>
-          </div>
-          <div class="options">
-            <a class="border">Keep Shopping For</a>
-            <a class="border">Best Sellers</a>
-            <a class="border">Prime</a>
-            <a class="border">Prime Video</a>
-            <a class="border">Today's Deals</a>
-            <a class="border">Gift Ideas</a>
-          </div>
-        </div>
-        <div class="bnav-right border">
-          <p>Cupid's corner</p>
+      <div class="products-scroll">
+        <div class="under20-products">
+          <img src="./public/imgs/under01.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under02.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under03.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under04.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under05.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under06.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under07.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under08.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under09.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under10.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under11.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under12.jpg" alt="Under 20 Products" />
+          <img src="./public/imgs/under13.jpg" alt="Under 20 Products" />
         </div>
       </div>
-    </nav>
-  </header>
+    </main>
 
-  <main></main>
-
-  <footer></footer>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
-
+    <footer></footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
